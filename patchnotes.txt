@@ -1,0 +1,6 @@
+Release
+- Implement username checker module
+- Implement CSRF token retrieval
+- Versioning system
+- Update system
+- Create data structures for relevant Roblox APIs
