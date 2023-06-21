@@ -6,7 +6,7 @@ import (
 )
 
 func GetLatestVersion() (string, error) {
-	url := "https://raw.githubusercontent.com/wouldblease/roblox-tools/main/update/version.txt"
+	url := "https://raw.githubusercontent.com/wouldblease/roblox-tools/master/version.txt"
 	response, err := http.Get(url)
 	if err != nil {
 		return "", err
